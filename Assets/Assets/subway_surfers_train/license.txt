@@ -1,0 +1,11 @@
+Model Information:
+* title:	Subway Surfers Train
+* source:	https://sketchfab.com/3d-models/subway-surfers-train-f212f9fb7ac347d0a15cf74c40548b9e
+* author:	Rajio123 (https://sketchfab.com/Rajio123)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Subway Surfers Train" (https://sketchfab.com/3d-models/subway-surfers-train-f212f9fb7ac347d0a15cf74c40548b9e) by Rajio123 (https://sketchfab.com/Rajio123) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

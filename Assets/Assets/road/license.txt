@@ -1,0 +1,11 @@
+Model Information:
+* title:	Road
+* source:	https://sketchfab.com/3d-models/road-8cf728862c384655ab8062002b5cbd57
+* author:	Crane Systems Australia Pty. Ltd (https://sketchfab.com/CraneSystemsau02)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Road" (https://sketchfab.com/3d-models/road-8cf728862c384655ab8062002b5cbd57) by Crane Systems Australia Pty. Ltd (https://sketchfab.com/CraneSystemsau02) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

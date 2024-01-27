@@ -1,0 +1,11 @@
+Model Information:
+* title:	Blocker Standard
+* source:	https://sketchfab.com/3d-models/blocker-standard-c4e571465a3147fc80bfa6329e650a43
+* author:	Crane Systems Australia Pty. Ltd (https://sketchfab.com/CraneSystemsau02)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Blocker Standard" (https://sketchfab.com/3d-models/blocker-standard-c4e571465a3147fc80bfa6329e650a43) by Crane Systems Australia Pty. Ltd (https://sketchfab.com/CraneSystemsau02) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

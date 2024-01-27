@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private float DirectionX;
     public float gravity = 10.0f;
     private CharacterController Controller;
+    public Animator JakeAnim;
 
     // Enum to represent the lanes
     private enum Lane
@@ -37,27 +38,41 @@ public class PlayerController : MonoBehaviour
         // Detect lane change input
         if (Input.GetKeyDown(KeyCode.RightArrow) && currentLane == Lane.Center)
         {
+             JakeAnim.SetBool("SJump", true);
             SwitchLane(Lane.Right);
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow) && currentLane == Lane.Left)
         {
+             JakeAnim.SetBool("SJump", true);
             SwitchLane(Lane.Center);
         }
         // Check for center lane input
         else if (Input.GetKeyDown(KeyCode.LeftArrow) && currentLane == Lane.Center)
         {
+             JakeAnim.SetBool("SJump", true);
             SwitchLane(Lane.Left);
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow) && currentLane == Lane.Right)
         {
+             JakeAnim.SetBool("SJump", true);
             SwitchLane(Lane.Center);
+        }
+        else{
+             if (Controller.isGrounded)
+             {
+                JakeAnim.SetBool("SJump", false);
+             }
         }
 
         if (Controller.isGrounded)
         {
             if (Input.GetButtonDown("Jump"))
             {
+                JakeAnim.SetBool("Jump", true);
                 DirectionY = jumpForce;
+            }
+            else{
+                JakeAnim.SetBool("Jump", false);
             }
         }
 
@@ -87,6 +102,7 @@ public class PlayerController : MonoBehaviour
     // Function to switch lanes
     private void SwitchLane(Lane newLane)
     {
+       
         // Set the new lane
         currentLane = newLane;
 
