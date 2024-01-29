@@ -4,10 +4,10 @@ public class PlayerController : MonoBehaviour
 {
     public float forwardSpeed = 5f;
     public float jumpForce = 8f;
-    private float DirectionY;
+    public float DirectionY;
     private float DirectionX;
     public float gravity = 10.0f;
-    private CharacterController Controller;
+    public CharacterController Controller;
     public Animator JakeAnim;
 
     // Enum to represent the lanes
