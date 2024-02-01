@@ -14,7 +14,7 @@ The player capsule is equipped with a CharacterController component and a Contro
 
 ## How to Play
 
-The objective is to run as far as possible without colliding with obstacles. Players can move left or right by swiping the screen, jump by tapping, and slide by swiping down. The game concludes when the player hits an obstacle.
+The objective is to run as far as possible without colliding with obstacles. Players can move left or right with left and right arrows , jump with space, and slide by down arrow. The game concludes when the player hits an obstacle.
 
 ## Features
 
@@ -32,3 +32,9 @@ To set up the game, follow these steps:
 4. Build and run the game to experience endless runner gameplay.
 
 Feel free to explore and modify the code to suit your preferences or add new features to enhance the gaming experience. Enjoy the endless runner journey!
+
+## Video Preview
+
+[![Video Title](http://img.youtube.com/vi/Bzzk3kU_UjM/0.jpg)](http://www.youtube.com/watch?v=Bzzk3kU_UjM)
+
+
