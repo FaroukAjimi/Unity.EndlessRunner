@@ -33,7 +33,7 @@ To set up the game, follow these steps:
 
 Feel free to explore and modify the code to suit your preferences or add new features to enhance the gaming experience. Enjoy the endless runner journey!
 
-## Video Preview
+## Youtube Video Preview
 
 [![Video Title](http://img.youtube.com/vi/Bzzk3kU_UjM/0.jpg)](http://www.youtube.com/watch?v=Bzzk3kU_UjM)
 
