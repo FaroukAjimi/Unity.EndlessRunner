@@ -1,19 +1,25 @@
+
 Endless Runner Game
-This is a hyper-casual game that follows the endless runner concept. The game is inspired by Subway Surfers, which is a popular game in the market.
-Technical Approach
-The game has two main components: the pathway and the player capsule.
+Overview
+This hyper-casual game follows the endless runner concept, taking inspiration from popular games like Subway Surfers. The game comprises two main components: the pathway and the player capsule.
+
 Pathway
-The pathway is generated endlessly as long as the player is still running. To ensure that the player never leaves the pathway, a pathway block prefab is created with colliders on the left and right. The prefab also has three lane markers (center, right, and left) that represent the train lanes in Subway Surfers.
+The pathway is dynamically generated endlessly as the player continues to run. To prevent the player from leaving the pathway, a pathway block prefab is implemented with colliders on both sides. This prefab includes three lane markers (center, right, and left) to represent the train lanes, reminiscent of Subway Surfers.
+
 Player Capsule
-The player capsule has a CharacterController component and a Controller Script. The player gameObject starts on the center lane, and the Controller script is responsible for keeping the endless forward translation. The script also keeps the player on the three lanes by using magnetizers that release or attract the player every time they change directions.
+The player capsule is equipped with a CharacterController component and a Controller Script. The game begins with the player on the center lane. The Controller script is responsible for maintaining continuous forward translation. It ensures the player stays within the three lanes using magnetizers that release or attract the player when changing directions.
+
 How to Play
-The objective of the game is to run as far as possible without hitting any obstacles. The player can move left or right by swiping the screen. The player can also jump by tapping the screen and slide by swiping down. The game ends when the player hits an obstacle.
+The objective is to run as far as possible without colliding with obstacles. Players can move left or right by swiping the screen, jump by tapping, and slide by swiping down. The game concludes when the player hits an obstacle.
+
 Features
-The game has the following features:
-Endless gameplay
-Three lanes
-Obstacles
-Installation
-To install the game, download the APK file from the official website.
+Endless Gameplay: The game offers an infinite and dynamically generated pathway.
+Three Lanes: Players navigate through three distinct lanes within the pathway.
+Obstacles: Various obstacles challenge players, and colliding with them ends the game.
+Instructions for Use
+To set up the game, follow these steps:
 
-
+Clone or download the repository.
+Open the project in Unity.
+Adjust pathway and player settings as needed.
+Build and run the game to experience endless runner gameplay.
